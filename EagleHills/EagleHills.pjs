@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{5ADB74B7-2941-49E6-BE02-3AAAFF89EE66}">
+	<children>
+		<child name="EagleHills_CRM" key="{4F0AD19F-DF02-46F9-A98E-88646F6A709F}" path="Test\EagleHills_CRM.mds" />
+	</children>
+	<testItems key="{0576C21B-856F-4949-BC16-11F6836F4CD5}">
+		<children>
+			<testItem key="{4F0AD19F-DF02-46F9-A98E-88646F6A709F}" enabled="True" timeout="0" stopOnError="False" description="" />
+		</children>
+	</testItems>
+	<variables key="{F3358854-2389-43DC-87B0-6C64F3FCC060}" />
+	<analysis key="{B139EDA4-6D85-4EE6-8831-01ECDC4E1232}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="EH_CRM">
+			<child name="EH_CRM" key="{89D996EE-B475-4A21-898B-6B698E75252B}" path="EH_CRM.js" />
+		</folder>
+		<folder name="GenericWrapper">
+			<child name="Drivers" key="{E04BD6DF-9FDD-4B8B-9B6D-BEB6C7236460}" path="Drivers.js" />
+			<child name="GenericFunctions" key="{34760730-8D0F-437B-8094-B7BEC8468ACD}" path="GenericFunctions.js" />
+		</folder>
+		<folder name="TestSuite" />
+		<child name="Unit1" key="{A8ADE1E7-26FF-4368-B586-3EC7BE2A5E7B}" path="Unit1.js" />
+	</children>
+</Root>

@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{8A5D9251-78AC-4699-9FDF-A7ED6C55D805}">
+				<TypeInfo Item0="{937C7AEE-9550-4AE9-8D91-B94D3EACBF55}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{C24CA14C-0436-4E2C-90B9-B58AE1C1A2F7}">
+						<TypeInfo Item0="{89F868D5-9674-4156-960B-112753AB069F}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="signInPage" Key="{38894554-490D-4C88-99CA-3DD0DA539FCE}">
+								<TypeInfo Item0="{DFE45A3D-B28F-45C8-B16E-0D7679BC2F20}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/aa81c228-84ce-40b2-aab2-6f0d41d0b2ff/oauth2/authorize*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="emailinputSomeoneExampleCom" Key="{9871A51D-EC58-4B44-BECF-B17446E1AD9C}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;loginfmt&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonNext" Key="{F0D6F75C-8E60-4D50-8A41-2DB7FCE4BC93}">
+										<TypeInfo Item0="{67953859-DCD8-41E0-866E-B43EE60A68B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Next&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]/input[contains(@class, &apos;win-button&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[4]//div[2]/input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[4]//div[2]/input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{30936737-7D6C-4856-99A8-308E8AFB4789}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;passwd&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;password&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;form-control&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonSignIn" Key="{A6608021-4855-4C32-BB26-48C1DD9DE1EA}">
+										<TypeInfo Item0="{67953859-DCD8-41E0-866E-B43EE60A68B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#idSIButton9" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Sign in&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;win-button&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[4]//input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[4]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageSignInToYourAccount" Key="{29AB2FCE-49E2-40BF-994C-900E7F262FEA}">
+								<TypeInfo Item0="{DFE45A3D-B28F-45C8-B16E-0D7679BC2F20}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://login.microsoftonline.com/aa81c228-84ce-40b2-aab2-6f0d41d0b2ff/login" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelStaySignedIn" Key="{00B8F9A3-FCA8-404F-9EE6-9C95A8658AC9}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;Stay signed in?&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@aria-level=&apos;1&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;heading&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;text-title&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="checkboxDonTShowThisAgain" Key="{0732F394-C56C-48A5-8F0C-B45B4D32D5A3}">
+										<TypeInfo Item0="{FD9284E3-9F9A-4B38-8A9C-3B89E0A1C07E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#KmsiCheckboxField" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;DontShowAgain&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;true&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;lightbox&apos;]//div[@role=&apos;main&apos;]//div[3]/div//label/input" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]/div//label/input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonDoThisToReduceTheNum" Key="{4AA27448-33B4-4623-B84A-3FBA12DFAD7B}">
+										<TypeInfo Item0="{67953859-DCD8-41E0-866E-B43EE60A68B8}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//div[.=&apos;Do this to reduce the number of times you are asked to sign in.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="#idSIButton9" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;submit&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]/div[2]//div[2]/input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageHosDashboard" Key="{73B88E90-7B72-4584-B97B-F40460708CD7}">
+								<TypeInfo Item0="{DFE45A3D-B28F-45C8-B16E-0D7679BC2F20}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://ehstg.crm4.dynamics.com/main.aspx*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeHosDashboard" Key="{F8398C19-C21D-41E0-808A-0E7AB2C93BFA}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[contains(., &apos;HOS Dashboard&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;pa-d&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;Dashboard_Selector&apos;]//h1" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelHosDashboard" Key="{A3D57C4C-DA4D-41FC-8661-5C5AB185D9CD}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;HOS Dashboard&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pa-a&apos;)]/div[contains(@class, &apos;pa-a&apos;)]/div[contains(@class, &apos;pa-a&apos;)]/div[contains(@class, &apos;pa-a&apos;)]/h1/div[contains(@class, &apos;pa-a&apos;)]/div[contains(@class, &apos;pa-a&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;DashboardView&apos;]//h1/div/div" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonAccountManagerForMobileser" Key="{4628EB10-FD78-4F69-9BD8-F1CE66D2BBFD}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mectrl_main_trigger" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Account manager for mobileser2 #&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div[2]//button[@type=&apos;button&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/div/div/button[contains(@class, &apos;mectrl_resetStyle&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;topBar&apos;]//div[2]/div/div/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[3]//div[2]//button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSignOutOfThisAccount" Key="{E6EE2A75-739E-405A-8875-C32F0B8531A3}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#mectrl_body_signOut" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Sign out&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/button[@role=&apos;button&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@id=&apos;mectrl_main_body&apos;]/div/div/button[contains(@class, &apos;mectrl_resetStyle&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;mectrl_main_body&apos;]//button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div[@id=&apos;mectrl_main_body&apos;]/div/div/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNavigateDynamics365" Key="{B7BE096C-1BA7-4D1E-9957-4490C4D813BF}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Home&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@role=&apos;tree&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;pa-as&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;siteMapPanelBodyDiv&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSales" Key="{D438668E-0BCB-446F-8C8B-679882538EF4}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;Sales&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Sales&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLeads" Key="{A2BCC4BC-1C1D-4AED-8005-92C9D9330362}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#sitemap-entity-NewSubArea_eeae17bc" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[.=&apos;Leads&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-lp-id=&apos;sitemap-entity-NewSubArea_eeae17bc&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@aria-label=&apos;Leads&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;Leads&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[6]/ul/li[contains(@class, &apos;pa-a&apos;)]" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelLeads" Key="{72815755-9186-45C9-A678-269B25685B05}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pa-bj&apos;)]/ul/li[6]/ul/li//div[contains(@class, &apos;pa-bj&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMyOpenLeads" Key="{90DE90BF-4098-4DC5-8AD9-AE267E3DBBE8}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(.,&apos;My Open Leads&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;My Open Leads&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/div[2]//h1/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeMyViews" Key="{33B350FA-F483-4430-81DC-0918C6AED25A}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;My Views&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//ul/li//span[contains(@class, &apos;ms-ContextualMenu-itemText&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;id__1-menuMyViews&apos;]//span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div/span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSystemViews" Key="{1D93BE1B-95A7-4142-8CF5-560931861192}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;System Views&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[2]//ul/li//span[contains(@class, &apos;ms-ContextualMenu-itemText&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;id__1-menuSystemViews&apos;]//span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li[2]//ul/li//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLeadAssignedToQualified" Key="{3EF0D9AF-08CB-4252-AC15-4440383E3490}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Lead Assigned to Qualified&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Lead Assigned to Qualified&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//ul/li[3]/button[contains(@class, &apos;ms-ContextualMenu-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;id__563-menu&apos;]//ul/li//ul/li[3]/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//ul/li[3]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonLeadAssignedToQualified2" Key="{2370C89D-001C-448F-952F-2968042CBB73}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(.,&apos;Lead Assigned to Qualified&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Lead Assigned to Qualified&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/div[2]//h1/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMarketResearchView" Key="{274374C1-E461-4EC4-B3FD-1428EC7E1EFB}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;Market Research View&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Market Research View&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//ul/li[4]/button[contains(@class, &apos;ms-ContextualMenu-link&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;id__563-menu&apos;]//ul/li//ul/li[4]/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul/li//ul/li[4]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMarketResearchView2" Key="{E1623E8F-ABCD-480C-B341-9EF505E25523}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(.,&apos;Market Research View&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Market Research View&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/div[2]//h1/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[@id=&apos;id__563&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonMarketResearchView3" Key="{CBF3AD22-50EE-4372-935C-8483E80EF955}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(.,&apos;Market Research View&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[contains(., &apos;Market Research View&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/div[2]//h1/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCommands" Key="{417DD60A-4AFF-469B-B76E-CBC28435FDDD}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Save As&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-lp-id=&apos;commandbar-Dashboard:null&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//ul[@aria-label=&apos;Commands&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//ul[@role=&apos;menubar&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul[contains(@class, &apos;pa-ak&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;panels&apos;]//div[@role=&apos;main&apos;]//div[2]//ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[2]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonPressEnterToOpenFlyout" Key="{950234D8-C9F8-4B05-8B04-8B4D8F3F1482}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[.=&apos;New&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-lp-id=&apos;dashboard-CreateNewDashboardFlyout&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[@title=&apos;Create a dashboard.&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//ul/li[@id=&apos;CreateNewDashboardFlyout_button0&apos;]/button[contains(@class, &apos;pa-av&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@id=&apos;CreateNewDashboardFlyout_button0&apos;]/button" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div//ul/li[@id=&apos;CreateNewDashboardFlyout_button0&apos;]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeBusinessProcessFlow" Key="{F614CCA3-362D-410C-B1B3-D669C900DDAB}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;New Lead&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;outerHeaderContainer_9&apos;]//ul[@role=&apos;listbox&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;processControlBreadCrumb_9&apos;]//ul[contains(@class, &apos;pa-bl&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;MscrmControls.Containers.ProcessBreadCrumb-processheaderNavigationContainer&apos;]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;outerHeaderContainer_9&apos;]/div[@id=&apos;processControlBreadCrumb_9&apos;]//ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeNewLead" Key="{40FB2CE4-F844-4405-80D2-F9F68DBB6BE0}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[contains(., &apos;New Lead&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[data-lp-id=&apos;MscrmControls.Containers.ProcessBreadCrumb|MscrmControls.Containers.ProcessBreadCrumb|lead|processHeaderStage_be6317cf-ac86-4f6b-b03c-284aa09c95d0&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;outerHeaderContainer_9&apos;]//ul/li[@role=&apos;option&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[contains(@class, &apos;pa-ap&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@id=&apos;MscrmControls.Containers.ProcessBreadCrumb-headerStageContainer&apos;]/li" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[@id=&apos;processControlBreadCrumb_9&apos;]//ul/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionDialogcontainer13Popupcon" Key="{E8A2EACA-EBAE-4E74-9CC6-49E67EF64961}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#DialogContainer__13_popupContainer" />
+											</Selector>
+											<Selector>
+												<Value Value="section[contains(., &apos;Unsaved changes&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeUnsavedChanges" Key="{BCE99127-ABF8-4E68-95D2-49539211330C}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#dialogTitleText_13" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[.=&apos;Unsaved changes&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;pa-ab&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;dialogTitleView_13&apos;]/h1" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/div/div/h1" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveAndContinue" Key="{827CDA41-42B0-47C2-8951-847400A77095}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#confirmButton_13" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Save and continue&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[@id=&apos;buttonView_13&apos;]/button[@type=&apos;button&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div/button[contains(@class, &apos;pa-ry&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/div[@id=&apos;buttonView_13&apos;]/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="sectionContact" Key="{42B109A7-EA69-405F-99AB-39ECD2914BF4}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//section[@aria-label=&apos;CONTACT&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectLeadTypeRequiredFieldsMust" Key="{035DEF3E-5CBF-4445-9EEB-44B4237AFDE8}">
+										<TypeInfo Item0="{5A1BDF1F-DF71-4CD4-B754-A1E39FD31466}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Lead Type&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@aria-describedby=(//span[.=&apos;Lead Type: Required fields must be filled in.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[2]/td//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectCustomerType" Key="{DE00C4BA-5D00-4778-B075-0032AA24B9BD}">
+										<TypeInfo Item0="{5A1BDF1F-DF71-4CD4-B754-A1E39FD31466}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Customer Type&apos;]/@for)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[4]/td//select" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="buttonSaveThisLead" Key="{BF3CBF57-B5EC-4158-8DBD-7F6A62D12FEE}">
+										<TypeInfo Item0="{881494EF-0D12-4DCF-80D3-85DDA0DF149A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[@aria-describedby=(//span[.=&apos;Save this Lead.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//button[.=&apos;Save&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//ul/li/button" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxFirstNameRequiredFieldsMu" Key="{6E549976-2296-4429-974D-D98C61B09AEB}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;First Name&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;First Name: Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[6]/td//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[6]/td//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectLeadChannelRequiredFields" Key="{E914EB72-6748-4231-9A2C-7A7884D9A44E}">
+										<TypeInfo Item0="{5A1BDF1F-DF71-4CD4-B754-A1E39FD31466}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Lead Channel&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@aria-describedby=(//span[.=&apos;Lead Channel: Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[12]/td//select" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="selectLeadSourceRequiredFields" Key="{2053D7EC-77D6-407B-B9B7-BCA9FBDA1B63}">
+										<TypeInfo Item0="{5A1BDF1F-DF71-4CD4-B754-A1E39FD31466}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//select[@id=(//label[.=&apos;Lead Source&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//select[@aria-describedby=(//span[.=&apos;Lead Source: Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[13]/td//select" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCountryOfResidenceRequire" Key="{6940DBDA-7D53-4044-846E-C57974422316}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;Country of Residence: Required fields must be filled in.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr/td[2]//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr/td[2]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxCountryCodeMobilePhone" Key="{92DC02EF-A7FF-4742-A645-13C483848A47}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Country Code (Mobile Phone)&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;Country Code (Mobile Phone): Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[2]/td[2]//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[2]/td[2]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxMobilePhoneRequiredFields" Key="{73B436EC-E902-4255-89C9-A7059EEEAE4D}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Mobile Phone&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;Mobile Phone: Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[3]/td[2]//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[3]/td[2]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEmailRequiredFieldsMustBe" Key="{17759EC5-30B9-481D-BF49-20DB8D32A344}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@id=(//label[.=&apos;Email&apos;]/@for)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;Email: Required fields must be filled in.&apos;]/@id)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[5]/td//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[5]/td//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxInterestedInRequiredField" Key="{C84872B1-4C28-48A3-AE91-EC73A377D028}">
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@aria-describedby=(//span[.=&apos;Interested in: Required fields must be filled in.&apos;]/@id)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[6]/td[2]//input[@type=&apos;text&apos;]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//section/section//tr[6]/td[2]//input" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEagleHillsPropertyAdvise" Key="{46F0ABDF-D88F-4CCA-B594-4617BB0EC620}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;Eagle Hills - Property Adviser Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//span[contains(@class, &apos;pa-ca&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;outerHeaderContainer_28&apos;]//div[2]/div/div[@id=&apos;28&apos;]//span" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//div[2]/div/div[@id=&apos;28&apos;]//span" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelNewLead" Key="{6B6019FD-2E40-414B-A28B-4CFDCA52DAF2}">
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[.=&apos;New Lead&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[contains(@class, &apos;pa-aj&apos;)]//div[@id=&apos;outerHeaderContainer_39&apos;]/div[@id=&apos;processControlBreadCrumb_39&apos;]//ul/li//div[contains(@class, &apos;pa-aj&apos;)]/div[contains(@class, &apos;pa-aj&apos;)]" Enabled="False" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/div/div/div" Enabled="False" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeSelectAView" Key="{DE3F87E1-C9F3-46DE-8020-29B7C3F6066B}">
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;Eagle Hills - Property Adviser Form&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[@title=&apos;Select a view.&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEagleHillsPropertyAdvise3" Key="{E9635E72-D1D1-48FF-AF60-9A2ECEA0C6A4}">
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;Eagle Hills - Property Adviser Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[@title=&apos;Eagle Hills - Property Adviser Form&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/li[contains(@class, &apos;pa-au&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/li" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeEagleHillsPropertyAdvise4" Key="{8C4DC234-0FAC-4DB8-B7B9-EB056D391C0D}">
+										<TypeInfo Item0="{788E0D1D-FE2E-4FE0-9F0C-A782C9820FF1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul//li//span[contains(@class, &apos;pa-ny&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//li/div/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnode2" Key="{CF0A3C64-2402-4F42-80C7-B0346E5A20D8}">
+										<TypeInfo Item0="{788E0D1D-FE2E-4FE0-9F0C-A782C9820FF1}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@role=&apos;main&apos;]//div[3]//span[contains(@class, &apos;symbolFont&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;8&apos;]//span/span" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;8&apos;]/div/div/div/span/span" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BrowserWindow" Key="{1674EF6C-E6D0-442E-9D3D-433600BAC1DF}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageNetscalerGateway" Key="{D63575D3-403E-49D4-99D5-750E06192C35}">
+								<Image FileName="1881347835" Left="8" Top="79" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{DFE45A3D-B28F-45C8-B16E-0D7679BC2F20}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://rremote.santanderconsumerusa.com/vpn/index.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="formVpnform" Key="{1CC2EBEF-BDDA-4BC8-A5DC-36B142AD2AEB}">
+										<Image FileName="1881347835" Left="465" Top="303" Right="1025" Bottom="487" />
+										<TypeInfo Item0="{5BE921ED-C575-4691-AB48-A99ACCD2521A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#vpnForm" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[@name=&apos;vpnForm&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(., &apos;Please log on&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form[contains(@action, &apos;login&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;logonbox-logonform&apos;]//form" />
+											</Selector>
+											<Selector>
+												<Value Value="//form" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxEnterUserName" Key="{0D93B6C5-31BD-4710-9D16-04095CC0684B}">
+										<Image FileName="1881347835" Left="655" Top="340" Right="1005" Bottom="380" />
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@title=&apos;Enter user name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[2]//input[contains(@class, &apos;prePopulatedCredentials&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="passwordboxPasswd" Key="{7B07897F-5297-4A1C-826A-303E2C9CDB3A}">
+										<Image FileName="395373905" Left="655" Top="386" Right="1005" Bottom="426" />
+										<TypeInfo Item0="{C26EDF6F-331F-4F03-B76E-06F644C70736}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#passwd" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/div[3]//input[contains(@class, &apos;prePopulatedCredentials&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{C24CA14C-0436-4E2C-90B9-B58AE1C1A2F7}">
+			<Child Name="signInPage" Owner="{38894554-490D-4C88-99CA-3DD0DA539FCE}">
+				<Child Name="emailinputSomeoneExampleCom" Owner="{9871A51D-EC58-4B44-BECF-B17446E1AD9C}" />
+				<Child Name="submitbuttonNext" Owner="{F0D6F75C-8E60-4D50-8A41-2DB7FCE4BC93}" />
+				<Child Name="passwordboxPasswd" Owner="{30936737-7D6C-4856-99A8-308E8AFB4789}" />
+				<Child Name="submitbuttonSignIn" Owner="{A6608021-4855-4C32-BB26-48C1DD9DE1EA}" />
+			</Child>
+			<Child Name="pageSignInToYourAccount" Owner="{29AB2FCE-49E2-40BF-994C-900E7F262FEA}">
+				<Child Name="panelStaySignedIn" Owner="{00B8F9A3-FCA8-404F-9EE6-9C95A8658AC9}" />
+				<Child Name="checkboxDonTShowThisAgain" Owner="{0732F394-C56C-48A5-8F0C-B45B4D32D5A3}" />
+				<Child Name="submitbuttonDoThisToReduceTheNum" Owner="{4AA27448-33B4-4623-B84A-3FBA12DFAD7B}" />
+			</Child>
+			<Child Name="pageHosDashboard" Owner="{73B88E90-7B72-4584-B97B-F40460708CD7}">
+				<Child Name="textnodeHosDashboard" Owner="{F8398C19-C21D-41E0-808A-0E7AB2C93BFA}">
+					<Child Name="panelHosDashboard" Owner="{A3D57C4C-DA4D-41FC-8661-5C5AB185D9CD}" />
+					<Child Name="buttonMyOpenLeads" Owner="{90DE90BF-4098-4DC5-8AD9-AE267E3DBBE8}" />
+					<Child Name="buttonLeadAssignedToQualified2" Owner="{2370C89D-001C-448F-952F-2968042CBB73}">
+						<Child Name="buttonMarketResearchView2" Owner="{E1623E8F-ABCD-480C-B341-9EF505E25523}" />
+					</Child>
+					<Child Name="buttonMarketResearchView3" Owner="{CBF3AD22-50EE-4372-935C-8483E80EF955}" />
+				</Child>
+				<Child Name="buttonAccountManagerForMobileser" Owner="{4628EB10-FD78-4F69-9BD8-F1CE66D2BBFD}" />
+				<Child Name="buttonSignOutOfThisAccount" Owner="{E6EE2A75-739E-405A-8875-C32F0B8531A3}" />
+				<Child Name="textnodeNavigateDynamics365" Owner="{B7BE096C-1BA7-4D1E-9957-4490C4D813BF}">
+					<Child Name="textnodeSales" Owner="{D438668E-0BCB-446F-8C8B-679882538EF4}">
+						<Child Name="textnodeLeads" Owner="{A2BCC4BC-1C1D-4AED-8005-92C9D9330362}">
+							<Child Name="panelLeads" Owner="{72815755-9186-45C9-A678-269B25685B05}" />
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="textnodeMyViews" Owner="{33B350FA-F483-4430-81DC-0918C6AED25A}" />
+				<Child Name="textnodeSystemViews" Owner="{1D93BE1B-95A7-4142-8CF5-560931861192}" />
+				<Child Name="buttonLeadAssignedToQualified" Owner="{3EF0D9AF-08CB-4252-AC15-4440383E3490}" />
+				<Child Name="buttonMarketResearchView" Owner="{274374C1-E461-4EC4-B3FD-1428EC7E1EFB}" />
+				<Child Name="textnodeCommands" Owner="{417DD60A-4AFF-469B-B76E-CBC28435FDDD}">
+					<Child Name="buttonPressEnterToOpenFlyout" Owner="{950234D8-C9F8-4B05-8B04-8B4D8F3F1482}" />
+					<Child Name="buttonSaveThisLead" Owner="{BF3CBF57-B5EC-4158-8DBD-7F6A62D12FEE}" />
+				</Child>
+				<Child Name="textnodeBusinessProcessFlow" Owner="{F614CCA3-362D-410C-B1B3-D669C900DDAB}">
+					<Child Name="textnodeNewLead" Owner="{40FB2CE4-F844-4405-80D2-F9F68DBB6BE0}">
+						<Child Name="panelNewLead" Owner="{6B6019FD-2E40-414B-A28B-4CFDCA52DAF2}" />
+					</Child>
+				</Child>
+				<Child Name="sectionDialogcontainer13Popupcon" Owner="{E8A2EACA-EBAE-4E74-9CC6-49E67EF64961}">
+					<Child Name="textnodeUnsavedChanges" Owner="{BCE99127-ABF8-4E68-95D2-49539211330C}" />
+					<Child Name="buttonSaveAndContinue" Owner="{827CDA41-42B0-47C2-8951-847400A77095}" />
+				</Child>
+				<Child Name="sectionContact" Owner="{42B109A7-EA69-405F-99AB-39ECD2914BF4}">
+					<Child Name="selectLeadTypeRequiredFieldsMust" Owner="{035DEF3E-5CBF-4445-9EEB-44B4237AFDE8}" />
+					<Child Name="selectCustomerType" Owner="{DE00C4BA-5D00-4778-B075-0032AA24B9BD}" />
+					<Child Name="textboxFirstNameRequiredFieldsMu" Owner="{6E549976-2296-4429-974D-D98C61B09AEB}" />
+					<Child Name="selectLeadChannelRequiredFields" Owner="{E914EB72-6748-4231-9A2C-7A7884D9A44E}" />
+					<Child Name="selectLeadSourceRequiredFields" Owner="{2053D7EC-77D6-407B-B9B7-BCA9FBDA1B63}" />
+					<Child Name="textboxCountryOfResidenceRequire" Owner="{6940DBDA-7D53-4044-846E-C57974422316}" />
+					<Child Name="textboxCountryCodeMobilePhone" Owner="{92DC02EF-A7FF-4742-A645-13C483848A47}" />
+					<Child Name="textboxMobilePhoneRequiredFields" Owner="{73B436EC-E902-4255-89C9-A7059EEEAE4D}" />
+					<Child Name="textboxEmailRequiredFieldsMustBe" Owner="{17759EC5-30B9-481D-BF49-20DB8D32A344}" />
+					<Child Name="textboxInterestedInRequiredField" Owner="{C84872B1-4C28-48A3-AE91-EC73A377D028}" />
+				</Child>
+				<Child Name="textnodeEagleHillsPropertyAdvise" Owner="{46F0ABDF-D88F-4CCA-B594-4617BB0EC620}" />
+				<Child Name="textnodeSelectAView" Owner="{DE3F87E1-C9F3-46DE-8020-29B7C3F6066B}">
+					<Child Name="textnodeEagleHillsPropertyAdvise3" Owner="{E9635E72-D1D1-48FF-AF60-9A2ECEA0C6A4}">
+						<Child Name="textnodeEagleHillsPropertyAdvise4" Owner="{8C4DC234-0FAC-4DB8-B7B9-EB056D391C0D}" />
+					</Child>
+				</Child>
+				<Child Name="textnode2" Owner="{CF0A3C64-2402-4F42-80C7-B0346E5A20D8}" />
+			</Child>
+			<Child Name="BrowserWindow" Owner="{1674EF6C-E6D0-442E-9D3D-433600BAC1DF}" />
+			<Child Name="pageNetscalerGateway" Owner="{D63575D3-403E-49D4-99D5-750E06192C35}">
+				<Child Name="formVpnform" Owner="{1CC2EBEF-BDDA-4BC8-A5DC-36B142AD2AEB}">
+					<Child Name="textboxEnterUserName" Owner="{0D93B6C5-31BD-4710-9D16-04095CC0684B}" />
+					<Child Name="passwordboxPasswd" Owner="{7B07897F-5297-4A1C-826A-303E2C9CDB3A}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
